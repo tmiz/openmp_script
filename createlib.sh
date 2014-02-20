@@ -5,4 +5,6 @@ tar -xvzf libomp_20131209_oss.tgz
 rm libomp_20131209_oss.tgz
 patch -u libomp_oss/tools/check-tools.pl < check-tool.patch 
 cd libomp_oss/
-make compiler=clang
+make arch=i386 compiler=clang
+make arch=x86_64 compiler=clang
+cd ../
