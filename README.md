@@ -1,6 +1,6 @@
 
 
-# The script to build Intel OpenMP Runtime on Mavericks.
+# The script to build Intel OpenMP Runtime on Mavericks
 
 ## Preparation
 
