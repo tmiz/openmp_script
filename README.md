@@ -8,10 +8,13 @@ $ make
 ## Output files
 
 include directory is located on
+```
 include/
-
+```
 created library is located on
+```
 lib/
+```
 
 ## Output Binary Spec
 ```
