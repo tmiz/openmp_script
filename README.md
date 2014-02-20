@@ -32,13 +32,13 @@ lib/libiomp5.dylib (for architecture x86_64):	   Mach-O 64-bit dynamically linke
 
 ## Remaining tasks
 
-* build and install OpenMP(R)/Clang
+### build and install OpenMP(R)/Clang
 
 http://clang-omp.github.io
 
-* test
+### test
 
-** create a C file 
+#### create a C file 
 ```
 include <omp.h>
 #include <stdio.h>
@@ -48,7 +48,7 @@ printf("Hello from thread %d, nthreads %d\n", omp_get_thread_num(), omp_get_num_
 }
 ```
 
-** compile with libs
+#### compile with libs
 
 ```
 $ /usr/local/bin/clang -fopenmp test.c -o hello -I/<cloned_dir>/openmp_script/include -L/<cloned_dir>/openmp_script/lib
