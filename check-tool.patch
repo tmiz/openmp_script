@@ -1,0 +1,11 @@
+--- check-tools.pl.back	2014-02-21 01:38:12.000000000 +0900
++++ check-tools.pl	2014-02-21 01:39:59.000000000 +0900
+@@ -277,7 +277,7 @@
+             # i686-apple-darwin9-gcc-4.0.1 (GCC) 4.0.1 (Apple Inc. build 5484)
+             # i686-apple-darwin11-llvm-gcc-4.2 (GCC) 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.9.00)
+             $stdout =~ m{^.*? \(GCC\) (\d+\.\d+\.\d+) \(.*Apple.*?Inc\. build (\d+)\)}m;
+-            ( $ver, $bld ) = ( $1, $2 );
++            ( $ver, $bld ) = ( "4.2.1", $2 );
+         } else {
+             if ( 0 ) {
+             } elsif ( $stdout =~ m{^.*? \(GCC\) (\d+\.\d+\.\d+)(?: (\d+))?}m ) {
