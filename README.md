@@ -2,6 +2,11 @@
 
 # The script to build OpenMP Script on Mavericks.
 
+## Preparation
+
+Please install "Command Line Tools for OSX 10.9" from Apple Developer Site.
+
+
 ## How to make
 ```
 $ make
