@@ -2,7 +2,7 @@
 
 The script to build OpenMP Script on Mavericks.
 
-$ sh createlib.sh
+$ make
 
 include directory is located on
 include/
