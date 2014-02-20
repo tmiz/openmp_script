@@ -1,10 +1,10 @@
 
 
-# The script to build OpenMP Script on Mavericks.
+# The script to build Intel OpenMP Runtime on Mavericks.
 
 ## Preparation
 
-Please install "Command Line Tools for OSX 10.9" from Apple Developer Site.
+Please install "Command Line Tools for OSX 10.9" from Apple Developer Site before.
 
 
 ## How to make
